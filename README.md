@@ -127,6 +127,8 @@ tile that reaches a box on its own resolves immediately — usually against you.
 
 ## License
 
-Code is released under the [MIT License](LICENSE). The original tile artwork and
-voice recordings are included with permission of the Thailes authors; if you
-fork this project, keep the attribution above.
+Code is released under the [PolyForm Noncommercial License 1.0.0](LICENSE.md) —
+free to use, modify, and share for any noncommercial purpose. The original tile
+artwork and voice recordings are included with permission of the Thailes authors;
+if you fork this project, keep the attribution above and the required notice in
+the license.
