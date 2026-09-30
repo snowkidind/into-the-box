@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta name="theme-color" content="#2b2f24" />
+  <title>Consonant Class — Thai Consonant Game</title>
+  <meta name="description" content="Sort falling Thai consonants into their High, Middle, and Low class boxes. A web port of the Thailes learning game." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div id="app">
+    <header id="hud">
+      <div class="hud-item"><span class="hud-label">Score</span><span id="score">0</span></div>
+      <h1 class="title" id="hud-title">Consonant Class</h1>
+      <div class="hud-item hud-right"><span class="hud-label">Lives</span><span id="lives">&#10084;&#10084;&#10084;</span></div>
+    </header>
+
+    <div id="stage">
+      <canvas id="game"></canvas>
+
+      <button id="sound-btn" type="button" aria-label="Sound">&#128266;</button>
+
+      <div id="overlay">
+        <div class="card">
+          <h2 id="overlay-title">Consonant Class</h2>
+          <p id="overlay-text"></p>
+          <div id="name-wrap">
+            <input id="name-input" type="text" maxlength="16" autocomplete="off"
+                   spellcheck="false" placeholder="Enter your name" />
+          </div>
+          <div id="greeting" class="hidden"></div>
+          <div id="leaderboard"></div>
+          <button id="start-btn">Start</button>
+        </div>
+      </div>
+    </div>
+
+    <footer id="foot">
+      Open source · <a href="https://github.com/" id="repo-link" target="_blank" rel="noopener">source &amp; credits</a>
+    </footer>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/game.js"></script>
+</body>
+</html>

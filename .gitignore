@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Node / Wrangler (leaderboard-worker)
+node_modules/
+leaderboard-worker/node_modules/
+leaderboard-worker/.wrangler/
+.dev.vars
+*.log

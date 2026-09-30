@@ -1,0 +1,16 @@
+name = "into-the-box-stats"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# One global Durable Object holds the registry in its own SQLite storage.
+[[durable_objects.bindings]]
+name = "STATS"
+class_name = "Stats"
+
+# SQLite-backed DO classes are available on the free Workers plan.
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["Stats"]
+
+# Optional but recommended: a salt for hashing IPs (transient rate-limit only).
+#   npx wrangler secret put IP_SALT
