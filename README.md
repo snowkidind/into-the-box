@@ -78,6 +78,32 @@ scheme the original app used. A consonant's class comes straight from the
 original lookup table: an explicit Middle‑class and High‑class list, with every
 other consonant treated as Low class.
 
+### Consonant classes (verified)
+
+All 44 consonants were cross‑checked against authoritative references
+(Wikipedia and Thai‑learning sources), and every one is placed in the correct
+box. The middle (9) and high (11) lists are defined explicitly; low (24) is
+everything else.
+
+| Class | Count | Consonants |
+| --- | --- | --- |
+| **Middle** | 9 | ก จ ฎ ฏ ด ต บ ป อ |
+| **High** | 11 | ข ฃ ฉ ฐ ถ ผ ฝ ศ ษ ส ห |
+| **Low** | 24 | ค ฅ ฆ ง ช ซ ฌ ญ ฑ ฒ ณ ท ธ น พ ฟ ภ ม ย ร ล ว ฬ ฮ |
+
+The commonly‑confused letters are all correct: the "tho" group **ฐ ถ** are high
+while **ฑ ฒ ท ธ** are low; the retroflex pair **ฎ ฏ** are middle (not low);
+**ห** is high but **ฮ** is low; **อ** is middle; **ฬ** is low. The two obsolete
+letters are included and placed right — **ฃ** (kho khuat) is high and **ฅ**
+(kho khon) is low. Counts of "10 high / 23 low" seen elsewhere simply omit those
+two obsolete letters; including them gives 9 / 11 / 24.
+
+Sources:
+[Wikipedia — Kho khuat](https://en.wikipedia.org/wiki/Kho_khuat) ·
+[ThailandStarterKit](https://www.thailandstarterkit.com/learn-thai/thai-alphabet-consonants-and-vowels/) ·
+[ExpatDen](https://expatden.com/thailand/how-to-learn-thai-alphabet/) ·
+[Transparent Language Thai blog](https://blogs.transparent.com/thai/?p=1448)
+
 ### Movement
 
 Each tile follows a list of waypoints toward the next one at a fixed speed
