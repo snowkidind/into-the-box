@@ -233,7 +233,7 @@ function statsHtml(d) {
   .note{opacity:.6;font-size:12px;margin-top:24px}
 </style></head><body><div class="wrap">
 <h1>Consonant Class — stats</h1>
-<p class="sub">Unique usernames and their best score. No IP addresses are stored.</p>
+<p class="sub">Unique usernames and their best score.</p>
 <div class="cards">
   <div class="card"><b>${d.totalEver}</b><span>unique names (all time)</span></div>
   <div class="card"><b>${d.retained}</b><span>retained (top ${MAX_USERS})</span></div>
@@ -245,8 +245,6 @@ function statsHtml(d) {
 <h2>Activity by day</h2>
 <table><thead><tr><th>day</th><th class="s">new names</th><th>submissions</th></tr></thead>
 <tbody>${daily || '<tr><td colspan="3">No activity yet.</td></tr>'}</tbody></table>
-<p class="note">A high <em>hits</em> count or a sudden spike in new names is the provenance signal:
-natural play trickles in, automated spoofing arrives in bursts.</p>
 </div></body></html>`;
 }
 
